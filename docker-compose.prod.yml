@@ -9,6 +9,6 @@ services:
 
   frontend:
     volumes:
-      - ./frontend/dist:/app/dist
+      - /var/www/derek/dist:/app/dist
     # In prod, you usually serve the 'dist' folder via Nginx
     command: npm run build
