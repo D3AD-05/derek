@@ -1,0 +1,10 @@
+services:
+  backend:
+    # No volumes here! Use the code inside the image.
+    command: >
+      sh -c "alembic upgrade head && 
+             uvicorn src.main:app --host 0.0.0.0 --port 8000"
+
+  frontend:
+    # In prod, you usually serve the 'dist' folder via Nginx
+    command: npm run build
