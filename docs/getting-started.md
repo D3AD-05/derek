@@ -1,21 +1,19 @@
-# How to Use Derek
-
-## Getting Started
+# Getting Started
 
 Follow the steps below to create and run your first live quiz session in Derek.
 
-### Prerequisites
+## Prerequisites
 
 Before continuing, ensure:
 
 * Derek is installed and running.
-* At least one administrator account has been created using the setup instructions.
+* At least one platform admin user has been created using the setup instructions.
 
 ---
 
 ## 1. Login
 
-Sign in using your administrator account and access the administration area.
+Sign in using your platform admin account and access the administration area.
 
 1. Log in to Derek.
 2. Click your profile icon in the top-right corner.
