@@ -254,3 +254,9 @@ sudo systemctl restart nginx
 ```
 
 Now you can visit your domain on a browser to access Derek.
+
+## Next Steps
+
+Once Derek is running, follow the Getting Started guide to create your first community, question bank, and live quiz session.
+
+📖[Getting Started](docs/getting-started.md)
