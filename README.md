@@ -1,6 +1,4 @@
-# Derek - Open source quiz solution
-
-
+# Derek - Open Source Quiz Solution
 
 Derek is an open-source, real-time quiz platform designed for trainers, educators, event organizers, and teams who want to conduct engaging live quiz sessions at any scale.
 
@@ -10,7 +8,7 @@ The platform enables administrators and trainers to trigger questions instantly 
 
 ### ⚡ Real-Time Quiz Engine
 
-- Trigger quiz questions instantly during live sessions.
+- Trigger questions instantly during live sessions.
 - Live synchronization of questions and answers across all connected participants.
 - Low-latency response handling for smooth user experience.
 
@@ -64,35 +62,9 @@ Contributions, feedback, and feature requests are always welcome.
 
 To make real-time learning, training, and audience engagement accessible, interactive, and scalable for everyone
 
-# How to setup?
+# Installation & Setup
 
-## On local system (For dev / testing)
-
-```shellscript
-# Clone the repo
-git clone https://github.com/PentaQube/derek.git
-
-# Go inside the derek directory
-cd derek
-
-# Copy backend and frontend .env files
-cp backend/.env.example backend/.env
-cp frontend/.env.example frontend/.env.production
-
-# Run application using docker (Install docker on your system first)
-docker compose up --build
-
-# Get backend container name to be used in next command
-docker ps
-
-# Create first user
-docker exec -it <container_name> python3 cli.py # Create first user
-
-# Access application
-Go to http://localhost:5173
-```
-
-## On a server (Production)
+## On a server (Production) [Tested on Ubuntu 26.04 LTS]
 
 ### Step 1 - Clone the repo
 
