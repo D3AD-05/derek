@@ -41,7 +41,7 @@ async def retrieve_session(
     # ! do not add current user ->  Public
 ):
     message_200 = "Session retrieved successfully."
-    message_500 = "Failed to Session retrieve."
+    message_500 = "Failed to retrieve the session."
 
     try:
 

@@ -25,7 +25,7 @@ async def delete_session(
     session: Session = Depends(get_session),
 ):
     message_200 = "Session deleted successfully."
-    message_500 = "Failed to Session delete."
+    message_500 = "Failed to delete the session."
 
     try:
 

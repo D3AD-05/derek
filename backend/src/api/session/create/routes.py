@@ -29,7 +29,7 @@ async def create_session(
     return_data: bool | None = None,
 ):
     message_200 = "Session created successfully."
-    message_500 = "Failed to Session create."
+    message_500 = "Failed to create the session."
 
     try:
 

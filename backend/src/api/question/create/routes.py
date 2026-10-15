@@ -29,7 +29,7 @@ async def create_question(
     return_data: bool | None = None,
 ):
     message_200 = "Question created successfully."
-    message_500 = "Failed to Question create."
+    message_500 = "Failed to create question."
 
     try:
         result = create_question_service(

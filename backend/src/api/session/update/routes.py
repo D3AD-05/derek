@@ -30,7 +30,7 @@ async def update_session(
     return_data: bool | None = None,
 ):
     message_200 = "Session updated successfully."
-    message_500 = "Failed to Session update."
+    message_500 = "Failed to update the session."
 
     try:
 

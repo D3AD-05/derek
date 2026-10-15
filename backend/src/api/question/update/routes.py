@@ -30,7 +30,7 @@ async def update_question(
     return_data: bool | None = None,
 ):
     message_200 = "Question updated successfully."
-    message_500 = "Failed to Question update."
+    message_500 = "Failed to update question."
 
     try:
 
